@@ -1,0 +1,95 @@
+/* Reset CSS */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #f8f9fa;
+}
+
+nav .navbar-nav .nav-item .nav-link {
+  color: blue;
+}
+
+nav .navbar-nav .nav-item .nav-link:hover {
+  color: red;
+}
+
+/* Main Content */
+main {
+  padding: 50px 0;
+}
+
+/* Image Containers */
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.images-container .image {
+  flex: 0 0 calc(33.33% - 20px);
+}
+
+.images-container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Footer */
+footer {
+  padding: 20px 0;
+}
+
+footer a {
+  color: black;
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767px) {
+  .images-container .image {
+    flex: 0 0 100%;
+  }
+}
+
+/* Additional Styles for "Cursos" Page */
+.cursos .images-container .image {
+  flex: 0 0 calc(50% - 20px);
+}
+
+/* Additional Styles for "Contáctenos" Page */
+.contactenos .images-container .image {
+  flex: 0 0 calc(25% - 20px);
+}
+
+.contactenos .images-container img {
+  width: 100%;
+  height: auto;
+}
+
+/* New Font Family */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Custom Styles for "Iniciar sesión" Button */
+.nav-link.login-btn {
+  background-color: #ff8800;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link.login-btn:hover {
+  background-color: #e66100;
+}
+
+header .navbar-brand img {
+  width: 200px; /* Ajusta el tamaño del logo */
+}

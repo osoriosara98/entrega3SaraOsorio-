@@ -1,74 +1,117 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Descripción de la página de inicio" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Página de inicio</title>
+    <meta name="description" content="pagina de index" />
+    <meta
+      name="keywords"
+      content="Real English, index, ayuda, inglés, metas lingüísticas"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Descripción de la página de inicio">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
-  <title>Página de inicio</title>
-</head>
+    <link rel="icon" type="image/png" href="./favicon_package_v0.16/fav1.png" />
+  </head>
 
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="Logo" style="width: 50%;"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="./login.html">Iniciar sesión</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contactenos.html">Contáctanos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./testimonios.html">Testimonios</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./cursos.html">Nuestros cursos</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-
-  <main>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-7">
-          <img src="./img/1.png" alt="Imagen" class="img-fluid">
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"
+          ><img src="./img/logo.png" alt="Logo" style="width: 50%"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./login.html">Iniciar sesión</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contactenos.html">Contáctanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./testimonios.html">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./cursos.html">Nuestros cursos</a>
+            </li>
+          </ul>
         </div>
-        <div class="col-md-5">
-          <p>Bienvenidos a nuestro espacio virtual de aprendizaje de inglés! Aquí encontrarás todo lo que necesitas para
-            mejorar tu nivel de inglés de manera práctica y efectiva.</p>
-          <p>Podrás acceder a contenido de las lecciones, tareas asignadas y clases en vivo, todo en un solo lugar.
-            Además, nuestros profesionales altamente capacitados estarán disponibles para resolver cualquier duda o
-            inquietud que tengas.</p>
-          <p>¡Inscríbete hoy y comienza a aprender inglés de la forma más fácil y cómoda! ¡Contáctanos ahora mismo a
-            través de nuestro enlace de WhatsApp!</p>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container-fluid p-0">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <img
+              src="./img/index.jpg"
+              alt="Mujer sosteniendo bandera"
+              class="imgindex img-fluid"
+            />
+          </div>
+
+          <div class="col-md-5 d-flex flex-column">
+            <div>
+              <p>
+                Bienvenidos a nuestro espacio virtual de aprendizaje de inglés!
+                Aquí encontrarás todo lo que necesitas para mejorar tu nivel de
+                inglés de manera práctica y efectiva.
+              </p>
+              <p>
+                Podrás acceder a contenido de las lecciones, tareas asignadas y
+                clases en vivo, todo en un solo lugar.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  <footer class="bg-light">
-    <div class="container text-center">
-      <a href="https://www.instagram.com/realenglishvirtual/" target="_blank"><i class="fab fa-instagram"></i></a>
-      <a href="https://www.facebook.com/profile.php?id=100075488067585" target="_blank"><i
-          class="fab fa-facebook-f"></i></a>
-      <a href="https://www.youtube.com/channel/UCtRffR2JIXf1TNBbfeLp5NA" target="_blank"><i class="fab fa-youtube"></i></a>
-    </div>
-  </footer>
+    <footer style="position: fixed; bottom: 0; width: 100%">
+      <div class="container">
+        <div class="social-icons">
+          <a
+            href="https://www.instagram.com/realenglishvirtual/"
+            target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100075488067585"
+            target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="https://wa.me/3116342624" target="_blank"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+  </body>
 </html>

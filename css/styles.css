@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+header {
+  background-color: #fff;
+}
+header .navbar-brand img {
+  width: 200px;
+}
+header .navbar-nav .nav-item .nav-link {
+  color: black;
+}
+header .navbar-nav .nav-item .nav-link:hover {
+  color: red;
+}
+header .navbar-nav .nav-item .nav-link.login-btn {
+  background-color: #ff8800;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+header .navbar-nav .nav-item .nav-link.login-btn:hover {
+  background-color: #e66100;
+}
+
+main {
+  padding: 0 0;
+}
+main h2 {
+  font-size: 1rem;
+}
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.images-container .image {
+  flex: 0 0 calc(33.33% - 20px);
+}
+@media (max-width: 767px) {
+  .images-container .image {
+    flex: 0 0 100%;
+  }
+}
+.cursos .images-container .image {
+  flex: 0 0 calc(50% - 20px);
+}
+.contactenos .images-container .image {
+  flex: 0 0 calc(25% - 20px);
+}
+.contactenos .images-container .image img {
+  width: 100%;
+  height: auto;
+}
+.images-container img {
+  width: 200%;
+  height: auto;
+}
+
+footer {
+  padding: 20px 0;
+  width: 100%;
+  background-color: #fff;
+}
+footer div.container {
+  display: flex;
+  justify-content: center;
+}
+footer a {
+  color: black;
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */

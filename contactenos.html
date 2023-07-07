@@ -12,35 +12,18 @@
     <meta name="keywords" content="Real English, contacto, ayuda, inglés, metas lingüísticas">
     
     <!-- Favicon -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="./favicon_package_v0.16/fav1.png">
     
     <!-- Estilos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        .imgindex {
-            width: 80%;
-            display: block;
-            margin-right: auto;
-            margin-left: auto;
-        }
+    <link rel="stylesheet" href="css/styles.css">
 
-        @media (min-width: 768px) {
-            .imgindex {
-                float: left;
-                margin-right: 20px;
-            }
-
-            .text-container {
-                margin-top: 20px;
-            }
-        }
-    </style>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="index.html">
                 <img src="./img/logo.png" alt="Logo de la página">
             </a>
@@ -68,45 +51,46 @@
     </header>
 
     <main>
-        <div class="container">
-            <div class="row">
+        <div class="container-fluid p-0">
+            <div class="row align-items-center">
                 <div class="col-md-6">
-                    <img src="./img/contacto.png" class="imgindex" alt="imagen contacto - Real English">
+                    <img src="./img/contacto.png" class="imgcontacto img-fluid" alt="Mujer hablando por teléfono en nuestra página de contacto">
                 </div>
-                <div class="col-md-6">
-                    <div class="text-container">
-                        <p>
-                            ¡Contáctanos hoy mismo!
-                            ¿Necesitas ayuda para mejorar tu inglés? Estamos aquí para ayudarte.
-                        </p>
-                        <p>Envíanos un correo a realenglish@gmail.com o un mensaje de WhatsApp al +57 3116342624.</p>
-                        <p>¡Esperamos poder ayudarte a alcanzar tus metas lingüísticas!</p>
-                    </div>
+                <div class="col-md-5 d-flex flex-column">
+                    <p>¡Contáctanos hoy mismo!
+                        ¿Necesitas ayuda para mejorar tu inglés? Estamos aquí para ayudarte.</p>
+                    <p>Envíanos un correo a realenglish@gmail.com o un mensaje de WhatsApp al +57 3116342624.</p>
+                    <p>¡Esperamos poder ayudarte a alcanzar tus metas lingüísticas!</p>
+                  </div>
+    
                 </div>
             </div>
         </div>
 
     </main>
 
-    <footer>
+    <footer style="position: absolute; bottom: 0">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <!-- Footer left content -->
-                </div>
-                <div class="col-md-6">
-                    <div class="social-icons">
-                        <a href="https://www.instagram.com/realenglishvirtual/" target="_blank"><i
-                                class="fab fa-instagram"></i></a>
-                        <a href="https://www.facebook.com/profile.php?id=100075488067585" target="_blank"><i
-                                class="fab fa-facebook"></i></a>
-                        <a href="https://wa.me/3116342624" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                    </div>
-                </div>
+         
+            <div class="social-icons">
+              <a
+                href="https://www.instagram.com/realenglishvirtual/"
+                target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/profile.php?id=100075488067585"
+                target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://wa.me/3116342624" target="_blank"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
             </div>
+          
         </div>
-    </footer>
-
+      </footer>
+  
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="slick/slick.min.js"></script>
